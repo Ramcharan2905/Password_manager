@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-PassHub</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+
+<body>
+    <div class="whole">
+        <p>LOG IN into your <span>PassHub</span> Account</p>
+        <div class="container">
+            <p class="wrong hidden">Incorrect username or password</p>
+            <img src="login.png" alt="" width="300px">
+
+            <form action="/submit" method="post">
+                <label for="username">
+                    Username:
+                    <input type="text" id="username" name="username" required><br><br>
+                </label>
+
+                <label for="password" class="password">
+                    Password:
+                    <input type="password" id="password" name="password" required><br><br>
+                </label>
+
+                <button type="submit" class="btn">LOG IN</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

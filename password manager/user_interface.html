@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="user_interface.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-first">
+            <div class="logo">
+                PassHub
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><a href="signin.html">SIGN IN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome To Your Password Manager - PassHub</h1>
+
+        <p> We're thrilled to have you here. You can securely store and manage all your passwords in one place, ensuring your online security</p>
+
+        <h2>What do You want to do?</h2>
+        <ul class="todo">
+            <li>
+                <a href="get_password.html">
+                    <img src="getpass.jpg" alt="Get Password">
+                </a>
+                <p>Get Password</p>
+            </li>
+            <li>
+                <a href="set_password.html">
+                    <img src="setpass.jpg" alt="Save Password">
+                </a>
+                <p>Save Password</p>
+            </li>
+            <li>
+                <a href="suggest_password.html" class="not-done">
+                    <img src="suggestpass.jpg" alt="Suggest Password">
+                </a>
+                <p>Suggest a Password</p>
+            </li>
+        </ul>
+
+        <footer>
+            Copyright &copy; The PassHub project
+        </footer>
+
+        <script>
+            document.querySelector(".not-done").addEventListener("click",()=>{
+                alert("This Feature is not available for now");
+            })
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+have to do ceaser cipher encryption
+
+have to do password suggestor
+
+have make proper prompts for saving passwords instead of alerts
