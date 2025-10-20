@@ -1,0 +1,14 @@
+# This is a static client-side project built with HTML, CSS, and JavaScript.
+# It has no server-side or package-managed dependencies.
+
+# The only requirement is a modern web browser that supports:
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- The Web Storage API (localStorage)
+
+# Recommended Browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
