@@ -35,12 +35,12 @@ The goal is to provide a front-end-only application where a user can:
 
 ## 📂 Project Structure
 
-Password_manager/ │ 
-├── index.html # The main landing page ├── index.css │ 
-├── login.html # Master account login page ├── login.js │ 
-├── signin.html # Master account creation page (uses sigin.js) ├── sigin.js │ 
-├── set_password.html # Page to add new website credentials ├── set_password.js │ 
-├── get_password.html # Page to retrieve and delete credentials ├── get_password.css ├── get_password.js │ 
+Password_manager/ │ <br>
+├── index.html # The main landing page ├── index.css │ <br>
+├── login.html # Master account login page ├── login.js │ <br>
+├── signin.html # Master account creation page (uses sigin.js) ├── sigin.js │ <br>
+├── set_password.html # Page to add new website credentials ├── set_password.js │ <br>
+├── get_password.html # Page to retrieve and delete credentials ├── get_password.css ├── get_password.js │ <br>
 
 *(Note: `user_interface.html` is redirected to from `login.js`/`sigin.js` but was not included in the files; it likely links to `set_password.html` and `get_password.html`.)*
 
